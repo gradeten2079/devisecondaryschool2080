@@ -1,0 +1,85 @@
+
+body{
+  margin: 0;
+	background-image: url(kamal.jpg);
+	background-size: cover;
+}
+
+.h {
+  font-size: 30px;
+  color: #fff;
+  text-align: left;
+  -webkit-animation: h 1s ease-in-out infinite alternate;
+  -moz-animation: h 1s ease-in-out infinite alternate;
+  animation: h 1s ease-in-out infinite alternate;
+}
+
+@keyframes h {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 60px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+div.scrollmenu {
+  background-color: #333	;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+@media screen and (min-width: 601px) {
+  div.h {
+    font-size: 30px;
+  }
+.type{
+
+	color: #23ee1d ;
+	text-decoration: all;
+
+}
+
+.typea{
+	height:30vh;
+		color: aqua;
+		border: solid red 1px;
+		border-width: 100%;
+	}
